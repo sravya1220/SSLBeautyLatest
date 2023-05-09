@@ -1,0 +1,49 @@
+{
+	"module": "CheckoutPageUsingWallet",
+	"models": [
+		{
+			"name": "CheckoutFlowWallet",
+			"elements": [
+							
+				{
+					"key": "WalletClick",
+					"value": "//input[@type='checkbox']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "EnterWalletOTP",
+					"value": "//form[@class='MuiBox-root css-t6510n']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "VerifyAndProceedButton",
+					"value": "//span[@class='MuiTouchRipple-root css-w0pj6f']",
+					"type": "XPATH"
+				},
+				{
+					"key": "CartHeader",
+					"value": "(//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4'])[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				
+			]
+		}
+	]
+}

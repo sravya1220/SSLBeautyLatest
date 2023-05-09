@@ -1,0 +1,34 @@
+{
+	"module": "PLPClearAllFunctionality",
+	"models": [
+		{
+			"name": "FilterCLearAllFunctionality",
+			"elements": [
+				{
+					"key": "GenderFilter",
+					"value": "//p[text()='Brand']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "GenderWomanClick",
+					"value": "(//input[@type='checkbox'])[6]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ClearAll",
+					"value": "//p[text()='CLEAR ALL']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "productCard",
+					"value": "//img[@alt='Flat 50% Discount']",
+					"type": "XPATH"
+				},
+								
+			]
+		}
+	]
+}

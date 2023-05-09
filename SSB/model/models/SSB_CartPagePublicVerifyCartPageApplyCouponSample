@@ -1,0 +1,95 @@
+{
+	"module": "CartPageVerifyApplyCouponSample",
+	"models": [
+		{
+			"name": "CartPageApplyCouponSampleFlow",
+			"elements": [
+				
+				{
+					"key": "CatogoryClick",
+					"value": "(//a[normalize-space()='Category'])[1]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "MakeUpClick",
+					"value": "//p[text()='MakeUp']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ProductClick",
+					"value": "(//p[text()='Face Primers'])[12]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "AddToCartProduct",
+					"value": "(//button[@type='button'])[8]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "AddToCartClick",
+					"value": "//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponIcon1",
+					"value": "//p[text()='Apply Coupon']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponClick1",
+					"value": "//button[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1d2uhwl']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "RemoveCoupon1",
+					"value": "(//p[text()='Remove'])[2]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponIcon2",
+					"value": "//p[text()='Apply Coupon']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponClick2"
+					"value": "(//p[text()='Apply'])[5]",
+					"type": "XPATH"
+				},				
+				{
+					"key": "RemoveCoupon2",
+					"value": "(//p[text()='Remove'])[2]",
+					"type": "XPATH"
+				},
+				{
+					"key": "EnterCoupon",
+					"value": "//input[@placeholder='Enter Coupon Code']",
+					"type": "XPATH"
+				},	
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},					
+			]
+		}
+	]
+}

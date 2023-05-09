@@ -1,0 +1,91 @@
+{
+	"module": "CheckoutPageUsingCreditCard",
+	"models": [
+		{
+			"name": "CheckoutFlowCreditCard",
+			"elements": [
+				
+				{
+					"key": "CreditCardDebitCardClick",
+					"value": "//div[text()='Credit Card / Debit Card']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "CardDetails",
+					"value": "//input[@placeholder='Card Number']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "NameonCard",
+					"value": "//input[@id='name_on_card']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ValidThru",
+					"value": "(//input[@id='filled-hidden-label-normal'])[2]",
+					"type": "XPATH"
+				},
+				{
+					"key": "Exp_Month",
+					"value": "//input[@id='card_exp_month']",
+					"type": "XPATH"
+				},
+				{
+					"key": "Exp_Year",
+					"value": "//input[@id='card_exp_year']",
+					"type": "XPATH"
+				},
+				{
+					"key": "CVV",
+					"value": "//input[@id='security_code']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "SaveCard",
+					"value": "//label[@for='save_later']",
+					"type": "XPATH"
+				},	
+				
+				{
+					"key": "PayNow",
+					"value": "//button[@id='common_pay_btn']",
+					"type": "XPATH"
+				},	
+				{
+					"key": "CCCardOTP",
+					"value": "//input[@id='cardotp']",
+					"type": "XPATH"
+				},	
+				{
+					"key": "SubmitSuccess",
+					"value": "(//button[@type ='submit'])[2]",
+					"type": "XPATH"
+				},
+				{
+					"key": "CartHeader",
+					"value": "(//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4'])[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},	
+			]
+		}
+	]
+}

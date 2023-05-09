@@ -1,0 +1,55 @@
+{
+	"module": "CheckoutPageUsingUPI",
+	"models": [
+		{
+			"name": "CheckoutFlowUPI",
+			"elements": [
+							
+				{
+					"key": "UPIClick",
+					"value": "//div[text()='UPI']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "EnterUPI",
+					"value": "//input[@placeholder='Enter UPI ID Here']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "VerifyButton",
+					"value": "//button[text()='VERIFY']",
+					"type": "XPATH"
+				},
+				{
+					"key": "PayNowClick",
+					"value": "//button[text()='PAY NOW']",
+					"type": "XPATH"
+				},
+				{
+					"key": "CartHeader",
+					"value": "(//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4'])[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				
+				
+			]
+		}
+	]
+}

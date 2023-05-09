@@ -1,0 +1,32 @@
+{
+	"module": "PLPSortbyDropDown",
+	"models": [
+		{
+			"name": "SortbyDropDownFunctionality",
+			"elements": [
+				{
+					"key": "DropDownClick",
+					"value": "//div[@aria-haspopup='listbox']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "DropDownCategory1",
+					"value": "(//li[@role='option'])[1]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "DropDownCategory2",
+					"value": "(//li[@role='option'])[2]",
+					"type": "XPATH"
+				},
+				{
+					"key": "productCard",
+					"value": "//img[@alt='Flat 50% Discount']",
+					"type": "XPATH"
+				},							
+			]
+		}
+	]
+}

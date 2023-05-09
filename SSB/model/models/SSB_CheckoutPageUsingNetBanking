@@ -1,0 +1,55 @@
+{
+	"module": "CheckoutPageUsingNetBanking",
+	"models": [
+		{
+			"name": "CheckoutFlowNetBanking",
+			"elements": [
+							
+				{
+					"key": "NetBankingClick",
+					"value": "//div[text()='Net Banking']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "BankIconClick",
+					"value": "(//img[@alt='bank logo'])[3]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "PayNow",
+					"value": "//button[text()='Pay Now']",
+					"type": "XPATH"
+				},
+				{
+					"key": "BankPage",
+					"value": "//button[normalize-space()='Simulate success']",
+					"type": "XPATH"
+				},
+				{
+					"key": "CartHeader",
+					"value": "(//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4'])[1]",
+					"type": "XPATH"
+				},
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				
+				
+			]
+		}
+	]
+}

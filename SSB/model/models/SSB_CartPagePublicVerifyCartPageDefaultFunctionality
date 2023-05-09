@@ -1,0 +1,103 @@
+{
+	"module": "CartPageDefaultFunctionality",
+	"models": [
+		{
+			"name": "CartPageFlow",
+			"elements": [
+				{
+					"key": "CatogoryClick",
+					"value": "(//a[normalize-space()='Category'])[1]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "MakeUpClick",
+					"value": "//p[text()='MakeUp']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ProductClick",
+					"value": "(//p[text()='Kajals'])[12]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "AddToCartProduct",
+					"value": "(//button[@type='button'])[8]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "AddToCartClick",
+					"value": "//p[@class='MuiTypography-root MuiTypography-body1 css-xscbz4']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponIcon",
+					"value": "//p[text()='Apply Coupon']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ApplyCouponClick",
+					"value": "(//p[text()='Apply'])[2]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "RemoveCoupon",
+					"value": "(//p[text()='Remove'])[2]",
+					"type": "XPATH"
+				},	
+				
+				{
+					"key": "ChangeClick",
+					"value": "(//button[normalize-space()='CHANGE'])[1]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "MoveToWishlist",
+					"value": "//p[contains(text(),'move to wishlist')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "RemoveBtn",
+					"value": "//p[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "Price",
+					"value": "//p[@class='MuiTypography-root MuiTypography-body1 css-6wd0d']",
+					"type": "XPATH"
+				},
+				{
+					"key": "Quantity",
+					"value": "//p[@class='MuiTypography-root MuiTypography-body1 css-9y2so7']",
+					"type": "XPATH"
+				},	
+				{
+					"key": "PlaceOrderBtn",
+					"value": "//button[contains(text(),'place order')]",
+					"type": "XPATH"
+				},	
+				{
+					"key": "TotalPayableAmount",
+					"value": "//div[@class='css-jo3rbj']",
+					"type": "XPATH"
+				},
+				{
+					"key": "productRemoveBtn",
+					"value": "//button[contains(text(),'Remove')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "GetShoppingBtn",
+					"value": "//button[contains(text(),'get shopping')]",
+					"type": "XPATH"
+				},		
+			]
+		}
+	]
+}

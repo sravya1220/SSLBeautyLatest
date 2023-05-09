@@ -1,0 +1,69 @@
+{
+	"module": "SSBPDPCheckDelivery",
+	"models": [
+		{
+			"name": "VerifyDeliveryCheck",
+			"elements": [
+				{
+					"key": "SearchBarPLP",
+					"value": "//input[@placeholder='Tell us what are you looking for']",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ProductCardClick",
+					"value": "(//a[@class='MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1me2eo7'])[1]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "DeliveryCheckBar",
+					"value": "(//input[@id='standard-name'])[1]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "ChangeButton",
+					"value": "//button[normalize-space()='CHANGE']",
+					"type": "XPATH"
+				},
+				{
+					"key": "CheckButton",
+					"value": "//button[normalize-space()='CHECK']",
+					"type": "XPATH"
+				},
+				{
+					"key": "StandardDelivery",
+					"value": "//span[contains(text(),'Standard Delivery')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "ExpressDelivery",
+					"value": "//span[contains(text(),'Express Delivery')]",
+					"type": "XPATH"
+				},
+				
+				{
+					"key": "PayandPickUp",
+					"value": "//span[contains(text(),'Pay & Pickup')]",
+					"type": "XPATH"
+				},
+				{
+					"key": "StandardDeliveryRadioBtn",
+					"value": "//input[@class='PrivateSwitchBase-input css-1m9pwf3' and @value ='Standard Delivery']",
+					"type": "XPATH"
+				},
+				{
+					"key": "ExpressDeliveryRadioBtn",
+					"value": "//input[@class='PrivateSwitchBase-input css-1m9pwf3' and @value ='Express Delivery']",
+					"type": "XPATH"
+				},
+				{
+					"key": "PickupRadioBtn",
+					"value": "//input[@class='PrivateSwitchBase-input css-1m9pwf3' and @value ='Pay & Pickup']",
+					"type": "XPATH"
+				},
+			]
+		}
+	]
+}
